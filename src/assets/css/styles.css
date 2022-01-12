@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  /************   Blue Gray   ************/
+  --blue-gray-50: #f8fafc;
+  --blue-gray-100: #f1f5f9;
+  --blue-gray-200: #e2e8f0;
+  --blue-gray-300: #cbd5e1;
+  --blue-gray-400: #94a3b8;
+  --blue-gray-500: #64748b;
+  --blue-gray-600: #475569;
+  --blue-gray-700: #334155;
+  --blue-gray-800: #1e293b;
+  --blue-gray-900: #0f172a;
+
+  /************   Indigo   ************/
+  --blue-indigo-50: #eef2ff;
+  --blue-indigo-100: #e0e7ff;
+  --blue-indigo-200: #c7d2fe;
+  --blue-indigo-300: #a5b4fc;
+  --blue-indigo-400: #818cf8;
+  --blue-indigo-500: #6366f1;
+  --blue-indigo-600: #4f46e5;
+  --blue-indigo-700: #4338ca;
+  --blue-indigo-800: #3730a3;
+  --blue-indigo-900: #312e81;
+
+  /************   Light Blue   ************/
+  --blue-light-blue-50: #f0f9ff;
+  --blue-light-blue-100: #e0f2fe;
+  --blue-light-blue-200: #bae6fd;
+  --blue-light-blue-300: #7dd3fc;
+  --blue-light-blue-400: #38bdf8;
+  --blue-light-blue-500: #0ea5e9;
+  --blue-light-blue-600: #0284c7;
+  --blue-light-blue-700: #0369a1;
+  --blue-light-blue-800: #075985;
+  --blue-light-blue-900: #0c4a6e;
+
+  /************   Blue   ************/
+  --blue-blue-50: #eff6ff;
+  --blue-blue-100: #dbeafe;
+  --blue-blue-200: #bfdbfe;
+  --blue-blue-300: #93c5fd;
+  --blue-blue-400: #60a5fa;
+  --blue-blue-500: #3b82f6;
+  --blue-blue-600: #2563eb;
+  --blue-blue-700: #1d4ed8;
+  --blue-blue-800: #1e40af;
+  --blue-blue-900: #1e3a8a;
+
+  /************   Green   ************/
+  --blue-green-50: #ecfdf5;
+  --blue-green-100: #d1fae5;
+  --blue-green-200: #a7f3d0;
+  --blue-green-300: #6ee7b7;
+  --blue-green-400: #34d399;
+  --blue-green-500: #10b981;
+  --blue-green-600: #059669;
+  --blue-green-700: #047857;
+  --blue-green-800: #065f46;
+  --blue-green-900: #064e3b;
+
+  /************   Rose   ************/
+  --blue-rose-50: #fff1f2;
+  --blue-rose-100: #ffe4e6;
+  --blue-rose-200: #fecdd3;
+  --blue-rose-300: #fda4af;
+  --blue-rose-400: #fb7185;
+  --blue-rose-500: #f43f5e;
+  --blue-rose-600: #e11d48;
+  --blue-rose-700: #be123c;
+  --blue-rose-800: #9f1239;
+  --blue-rose-900: #881337;
+
+  /************   Amber   ************/
+  --blue-amber-50: #fffbeb;
+  --blue-amber-100: #fef3c7;
+  --blue-amber-200: #fde68a;
+  --blue-amber-300: #fcd34d;
+  --blue-amber-400: #fbbf24;
+  --blue-amber-500: #f59e0b;
+  --blue-amber-600: #d97706;
+  --blue-amber-700: #b45309;
+  --blue-amber-800: #92400e;
+  --blue-amber-900: #78350f;
+}
+
+.nav-active {
+  background-color: var(--blue-gray-900);
+  color: var(--blue-gray-200);
+}
+
+body,
+* {
+  font-family: "Inter", sans-serif;
+}
