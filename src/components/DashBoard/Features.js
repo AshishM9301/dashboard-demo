@@ -51,6 +51,7 @@ function Features() {
               backGroundColor: colorRandomiser(),
             }}
             size="2rem"
+            key={avatar.id}
           />
         ))}
       </div>
