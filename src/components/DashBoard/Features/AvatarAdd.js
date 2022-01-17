@@ -1,7 +1,8 @@
 import React from "react";
+
 import Avatar from "react-avatar";
 
-function Features() {
+function AvatarAdd() {
   var multiAvatar = [
     { id: 1, name: "A B" },
     { id: 2, name: "AB C" },
@@ -32,9 +33,8 @@ function Features() {
   };
 
   console.log(colorRandomiser());
-
   return (
-    <div className="mt-8 flex">
+    <div className="flex">
       <Avatar
         color={Avatar.getRandomColor("sitebase", ["red", "green", "blue"])}
         name="Foo Bar"
@@ -59,4 +59,4 @@ function Features() {
   );
 }
 
-export default Features;
+export default AvatarAdd;
